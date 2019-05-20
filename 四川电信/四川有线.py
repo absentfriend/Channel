@@ -17,9 +17,7 @@ for u in url:
 file.close()
 os.system('C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Daum\\PotPlayer 64 bit.exe')
 os.system('C:\\Users\\Administrator\\PycharmProjects\\频道破解\\四川电信\\四川有线.dpl')
-
-url='http://sywly1.hk68.viphost.xyz/iptv/scyx.php?id=cctv1hd'
-res = requests.get(url, allow_redirects=False)
-print(res)
-la = res.headers['location']
-print(la)
+for x in url:
+    res = requests.get(x,allow_redirects=False)
+    la = res.headers['location']
+    print(la)

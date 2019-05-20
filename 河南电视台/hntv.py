@@ -6,7 +6,6 @@ import re
 channels={'河南卫视':'135','河南新闻':'140','河南国际':'144','河南都市':'136','河南公共':'142','河南民生':'137','河南政法':'138','河南电视剧':'139','河南新农村':'143','晴彩中原':'145','河南航空港':'146','武术世界':'147','梨园频道':'148','文物宝库':'149'}
 headers ={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36','Referer': 'http://www.hntv.tv/soms4/web/jwzt/player/flashplayer/program_live_player_flash.jsp?function=GetLiveProgramInfo&channelId=135'}
 playurls=[]
-
 for x,y in channels.items():
     url='http://www.hntv.tv/soms4/web/jwzt/player/live_ipad_player.jsp?channelId='+y
     #http://www.hntv.tv/soms4/web/jwzt/player/live_ipad_player.jsp?channelId=

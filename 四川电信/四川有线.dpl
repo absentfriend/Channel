@@ -1,6 +1,6 @@
 ﻿DAUMPLAYLIST
-playname=http://sywly1.hk68.viphost.xyz/iptv/scyx.php?id=jswshd
-topindex=3
+playname=http://sywly1.hk68.viphost.xyz/iptv/scyx.php?id=cctv1hd
+topindex=0
 saveplaypos=0
 1*file*http://sywly1.hk68.viphost.xyz/iptv/scyx.php?id=cctv1hd
 1*title*CCTV1HD
@@ -110,3 +110,6 @@ saveplaypos=0
 36*file*http://sywly1.hk68.viphost.xyz/iptv/scyx.php?id=sctv5hd
 36*title*SCTV5HD
 36*played*0
+37*file*http://sywly1.hk68.viphost.xyz/iptv/scyx.php?id=sctv7hd
+37*title*SCTV7HD
+37*played*0

@@ -20,4 +20,5 @@ os.system('C:\\Users\\Administrator\\PycharmProjects\\频道破解\\四川电信
 for x in url:
     res = requests.get(x,allow_redirects=False)
     la = res.headers['location']
-    print(la)
+    i=url.index(x)
+    print(name[i],la)

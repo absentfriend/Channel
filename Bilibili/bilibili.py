@@ -25,11 +25,15 @@ for n in range(1,11):
         roomids.append(roomid)
         titles.append(title)
 dic=dict(zip(titles,roomids))
+for a,b in dic.items():
+    print(a,b)
 playurls=[]
 for x,y in dic.items():
     #print(x,y)
     url='https://live.bilibili.com/'+str(y)
     r=geturl(url,headers=headers)
+    #if y==1091450:
+     #   print(r)
     playurl=re.findall('url":"(.+?)"',r)
     if playurl==[]:
         a='rtsp://183.59.156.50/PLTV/88888905/224/3221229816/10000100000000060000000009924383_0.smil'
@@ -37,7 +41,7 @@ for x,y in dic.items():
         a=playurl[0]
     playurl=a.encode('utf-8').decode('unicode_escape')
     playurls.append(playurl)
-    print(x,playurl)
+    print(x+str(y),playurl)
 with open('B站直播.dpl', 'w', encoding="utf-8") as f: f.write('')
 with open('B站直播.dpl', 'a', encoding="utf-8") as f: f.write('DAUMPLAYLIST\n'+'playname=\n'+'topindex=27\n'+'saveplaypos=0\n')
 for u in playurls:

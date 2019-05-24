@@ -1,21 +1,21 @@
+#斗鱼tv
+from requestget import geturl
 import requests
 import os
-import datetime
-import time
-from requests_toolbelt.multipart import MultipartEncoder
-url='https://www.douyu.com/lapi/live/getH5Play/9999'
-headers={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36','referer':'https://www.douyu.com/60937','x-requested-with':'XMLHttpRequest','cookie': 'SL_GWPT_Show_Hide_tmp=1; SL_wptGlobTipTmp=1; dy_did=f558a0158e7b70198133928d00041501; acf_did=f558a0158e7b70198133928d00041501; Hm_lvt_e99aee90ec1b2106afe7ec3b199020a7=1556963168,1556971601,1557838409,1557923260; Hm_lpvt_e99aee90ec1b2106afe7ec3b199020a7=1557923346','content-type':'application/x-www-form-urlencoded','origin':'https://www.douyu.com','content-type':'application/x-www-form-urlencoded'}
-dir_path = os.path.abspath(os.path.dirname(__file__))
-file_path = os.path.join(dir_path,'test.txt')
-t=int(time.time())
-print(t)
-files=open('C:\\Users\\Administrator\\PycharmProjects\\Channel\\战旗直播\\import.xls','a+')
-m=MultipartEncoder({'file':('C:\\Users\\Administrator\\PycharmProjects\\Channel\\战旗直播\\import.xls',files),'v':'220120190515','did':'f558a0158e7b70198133928d00041501','tt':str(t),'sign':'1a104e36b21542f3f031fb9a7707f59c','rate':'4','ver':'Douyu_219050695','iar':'1','cdn':'ws-h5','iar':'0'})
-#files={'v':('220120190515'),'did':('f558a0158e7b70198133928d00041501'),'tt':(str(t)),'sign':('1a104e36b21542f3f031fb9a7707f59c'),'rate':('4'),'ver':('Douyu_219050695'),'iar':('1'),'cdn':('ws-h5')}
-r1= requests.post(url,data=m,headers=headers)
-r = requests.post(url,data=m,headers=headers)
-r.encoding = 'utf-8'
-# r.encoding='GB2312'
-r = r.text
-print(r1)
-print(r)
+import re
+from DPL频道列表模板 import lists
+file=open("C:\\Users\\Administrator\\PycharmProjects\\频道破解\\斗鱼直播\\斗鱼tv.txt","r+",encoding='utf-8')
+f=file.read()
+name=list(re.findall(r'flv(.*)',f))
+print(name)
+url=re.findall(r'http.*flv',f)
+print(url)
+with open('斗鱼tv.dpl', 'w', encoding="utf-8") as f: f.write('')
+with open('斗鱼tv.dpl', 'a', encoding="utf-8") as f: f.write('DAUMPLAYLIST\n'+'playname=\n'+'topindex=27\n'+'saveplaypos=0\n')
+for u in url:
+    j=url.index(u)
+    (x,y)=lists(name[j],u)
+    with open('斗鱼tv.dpl', 'a+', encoding="utf-8") as f: f.write(str(j+1)+x + "\n"+str(j+1)+y+"\n"+str(j+1)+'*played*0\n')
+file.close()
+os.system('C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Daum\\PotPlayer 64 bit.exe')
+os.system('C:\\Users\\Administrator\\PycharmProjects\\频道破解\\斗鱼直播\\斗鱼tv.dpl')

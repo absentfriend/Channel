@@ -3,7 +3,7 @@ import re
 import os
 from DPL频道列表模板 import lists
 import subprocess
-file=open("C:\\Users\\Administrator\\Desktop\\node\\广东电信CCTV频道.txt","r+",encoding='utf-8')
+file=open("F:\\node\\广东电信CCTV频道.txt","r+",encoding='utf-8')
 f=file.read()
 p1=r'.+?,'
 pattern1=re.compile(p1)
@@ -12,7 +12,7 @@ names=[]
 for x in range(len(name)):
     y=name[x].replace(",","")
     names.append(y)
-print(names)
+#print(names)
 p2=r'rtsp.+?.smil'
 pattern2=re.compile(p2)
 url=pattern2.findall(f)

@@ -1,5 +1,3 @@
-#http://live.bilibili.com/api/playurl?player=1&quality=0&platform=android&otype=json&cid=11735834
-#http://js.live-play.acgvideo.com/live-js/452244/live_172925919_1966898.flv?wsSecret=b0886973c9a9618b5775605bcc6a59a8&wsTime=1557287965&trid=539b9b6ebbcd4901a6531d01762f596b&order=1&sig=no
 from requestget import geturl
 import re
 import requests
@@ -27,15 +25,23 @@ for n in range(1,11):
         roomids.append(roomid)
         titles.append(title)
 dic=dict(zip(titles,roomids))
+for a,b in dic.items():
+    print(a,b)
 playurls=[]
 for x,y in dic.items():
     #print(x,y)
     url='https://live.bilibili.com/'+str(y)
     r=geturl(url,headers=headers)
+    #if y==1091450:
+     #   print(r)
     playurl=re.findall('url":"(.+?)"',r)
-    playurl=playurl[3].encode('utf-8').decode('unicode_escape')
+    if playurl==[]:
+        a='rtsp://183.59.156.50/PLTV/88888905/224/3221229816/10000100000000060000000009924383_0.smil'
+    else:
+        a=playurl[0]
+    playurl=a.encode('utf-8').decode('unicode_escape')
     playurls.append(playurl)
-    print(x,playurl)
+    print(x+str(y),playurl)
 with open('B站直播.dpl', 'w', encoding="utf-8") as f: f.write('')
 with open('B站直播.dpl', 'a', encoding="utf-8") as f: f.write('DAUMPLAYLIST\n'+'playname=\n'+'topindex=27\n'+'saveplaypos=0\n')
 for u in playurls:

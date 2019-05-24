@@ -7,7 +7,6 @@ from requestget import geturl
 import time
 from 咪咕视频.mgchaclass import mgreurl
 headers={'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 MicroMessenger/6.2.3 NetType/WIFI Language/zh_CN'}
-
 '''
 t=int(time.time())
 clientId=get_token(message=str(t)).upper()
@@ -19,9 +18,12 @@ print(r)
 n1=r.find('"url":"')+len('"url":"')
 n2=r.find('"',n1)
 playurl=r[n1:n2]
-print(playurl)'''
+print(playurl)
+'''
 a=mgreurl()
+url=list(a.values())
 for x,y in a.items():
-    print(x,y)
-r=geturl(y,headers=headers)
+    r=geturl(url[0],headers=headers)
+    #playurl=r['body']['urlInfo']['url']
+    #print(x,playurl)
 print(r)

@@ -1,6 +1,6 @@
 ﻿DAUMPLAYLIST
-playname=http://tx2play1.douyucdn.cn/live/4007402rmHuGBOmm_4000p.flv
-topindex=37
+playname=http://tx2play1.douyucdn.cn/live/2132902rEW2yq9u0_4000p.flv
+topindex=0
 saveplaypos=0
 1*file*http://tx2play1.douyucdn.cn/live/747764rw06eMPDOO_4000p.flv
 1*title*科幻动作喜剧
@@ -212,3 +212,9 @@ saveplaypos=0
 70*file*http://tx2play1.douyucdn.cn/live/532152raonCf0nBp_4000p.flv
 70*title*P神直播
 70*played*0
+71*file*http://tx2play1.douyucdn.cn/live/2132902rEW2yq9u0_1024p.flv
+71*title*陈翔六点半
+71*played*0
+72*file*http://tx2play1.douyucdn.cn/live/2132902rEW2yq9u0_4000p.flv
+72*title*陈翔
+72*played*0

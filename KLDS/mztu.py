@@ -9,6 +9,7 @@ for x in range(1,17):
     else:
         url='https://www.mzitu.com/tag/ugirls/page/'+str(x)+'/'
     r=requests.get(url)
+    print(r)
     html=etree.HTML(r.text)
     src_list=html.xpath('//img[@class="lazy"]/@data-original')
     alt_list=html.xpath('//img[@class="lazy"]/@alt')

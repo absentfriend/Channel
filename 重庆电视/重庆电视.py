@@ -11,12 +11,13 @@ playurls=[]
 for x,id in ch.items():
     url='http://app.cbg.cn/?app=activity&controller=wwsp&action=hlive_md5&callback=jQuery_&ch=%2Fapp_2%2F_definst_%2Fls_'+id+'.stream%2Fchunklist.m3u8&_='
     r=geturl(url,headers=headers)
+    print(r)
     url1='http://sjlivecdnx.cbg.cn/1ive/stream_'+id+'.php'
     requests.get(url1,headers)
     playurl=re.findall('http.+?m3u8',r)
     playurl=playurl[0].replace('\\','')
-    r1=geturl(playurl,headers=headers)
-    print(r1)
+    r1=geturl(url1,headers=headers)
+    #print(r1)
     playurls.append(playurl)
 names=list(ch.keys())
 with open('cqtv.dpl', 'w', encoding="utf-8") as f: f.write('')

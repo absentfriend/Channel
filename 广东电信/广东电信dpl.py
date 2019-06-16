@@ -3,7 +3,7 @@ import re
 import os
 from DPL频道列表模板 import lists
 import subprocess
-file=open("F:\\node\\广东电信CCTV频道.txt","r+",encoding='utf-8')
+file=open("C:\\Users\\Administrator\\PycharmProjects\\频道破解\\广东电信\\广东电信CCTV频道.txt","r+",encoding='utf-8')
 f=file.read()
 p1=r'.+?,'
 pattern1=re.compile(p1)
@@ -27,4 +27,4 @@ for u in url:
     #with open('广东电信.dpl', 'a+', encoding="utf-8") as f: f.write(str(j+1)+x + "\n"+str(j+1)+y+"\n"+str(j+1)+'*played*0\n')
 file.close()
 os.system('C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Daum\\PotPlayer 64 bit.exe')
-os.system('C:\\Users\\Administrator\\PycharmProjects\\频道破解\\广东电信.dpl')
+os.system('C:\\Users\\Administrator\\PycharmProjects\\频道破解\\广东电信\\广东电信.dpl')

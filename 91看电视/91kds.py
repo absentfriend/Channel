@@ -65,6 +65,13 @@ def area(s):
     for x in s1:
         a = get_location(s, x)
         print(x, a)
+def area3(s):
+    print(s+'*************************************************')
+    s1=re.findall(s+'\.m3u8\?ip=(.+?)&',f)
+    print(s1)
+    for x in s1:
+        a = get_location(s, x)
+        print(x, a)
 def area2(s):
     print(s+'*************************************************')
     s1=re.findall(s+'\.m3u8\?id=(.+?)&',f)
@@ -74,6 +81,7 @@ def area2(s):
         #print(x, a)
 #bstsh=area2('bstsh')
 qtv=area2('sdqdtv')
+hoge=area3('hoge')
 pptv=area2('pptv')
 cutv=area('cutv1')
 hatv=area('hatv')

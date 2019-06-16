@@ -7,9 +7,9 @@ from DPL频道列表模板 import lists
 file=open("C:\\Users\\Administrator\\PycharmProjects\\频道破解\\斗鱼直播\\斗鱼tv.txt","r+",encoding='utf-8')
 f=file.read()
 name=list(re.findall(r'flv(.*)',f))
-print(name)
+#print(name)
 url=re.findall(r'http.*flv',f)
-print(url)
+#print(url)
 with open('斗鱼tv.dpl', 'w', encoding="utf-8") as f: f.write('')
 with open('斗鱼tv.dpl', 'a', encoding="utf-8") as f: f.write('DAUMPLAYLIST\n'+'playname=\n'+'topindex=27\n'+'saveplaypos=0\n')
 for u in url:

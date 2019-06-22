@@ -11,16 +11,16 @@ headers1={'User-Agent':'Dalvik/1.6.0 (Linux; U; Android 4.4.2; SM-G900F Build/KO
 def firstdevc(Deviceno='69DCCBEC6DFECD4A8EE17509EE7D7D77f'):
     url2='http://slave.bfgd.com.cn:13160/account/get_access_token'
     datas=json.dumps({"deviceType":"yuj","deviceno":Deviceno,"role":"guest"})
-    r2=posturl(url2,data=datas)
+    r2=posturl(url2,data=datas,headers=headers1)
     #print(r2)
     n1=r2.find('"accessToken":"')+len('"accessToken":"')
     n2=r2.find('","',n1)
     accessToken=r2[n1:n2]
     return accessToken
 
-def access_token(devc1=firstdevc()):
+def access_token(devc1=firstdevc(),devicenob='69DCCBEC6DFECD4A8EE17509EE7D7D77f'):
     #devc1=firstdevc()
-    get_accesstoken='http://access.bfgd.com.cn:12690/account/login?isforce=1&accesstoken='+devc1+'&accounttype=2&deviceno='+'69DCCBEC6DFECD4A8EE17509EE7D7D77f&pwd=96e79218965eb72c92a549dd5a330112&devicetype=3&account=40169031313'
+    get_accesstoken='http://access.bfgd.com.cn:12690/account/login?isforce=1&accesstoken='+devc1+'&accounttype=2&deviceno='+devicenob+'&pwd=96e79218965eb72c92a549dd5a330112&devicetype=3&account=40169031313'
     r3=geturl(get_accesstoken,headers=headers1)
     #print(r3)
     n1=r3.find('"access_token" : "')+len('"access_token" : "')
@@ -40,8 +40,6 @@ channel_names=[]
 for l in listtype:
     idurl='http://slave.bfgd.com.cn:13160/homed/program/get_list?musicsize=246x138&label='+l+'&accesstoken='+a+'&pagenum=78&vodsize=246x138&chnlsize=90x90%7C246x138&pageidx=1&livesize=246x138&hdsize=246x138&appsize=246x138&sdsize=246x138'
     r1=geturl(idurl,headers=headers1)
-    #print(r1)
-#print(r1)
     p1=r'{"id":4200000[0-9]{3}'
     p2=r':1,"name":".+?"'
     pattern1=re.compile(p1)
@@ -57,12 +55,13 @@ for l in listtype:
 channels=dict(zip(channel_names,channel_ids))
 with open('bfgd.txt', 'w', encoding="utf-8") as f:f.write("")
 for j,k in channels.items():
-    url='http://47.244.77.94:17000/byf2/'+k
-    url2='m3u8://47.244.77.94:17000/byf2/'+k
+    #url='http://47.244.77.94:17000/byf2/'+k
+    url = 'http://47.244.239.147:17000/byf2/' + k
+    url2='m3u8://47.244.239.147:17000/byf2/'+k
     if j=='CCTV-11':
         break
     print(j,url)
-    with open('bfgd.txt', 'a+', encoding="utf-8") as f:f.write(j+url+'  '+url2+'\n')
+    #with open('bfgd.txt', 'a+', encoding="utf-8") as f:f.write(j+url+'  '+url2+'\n')
 #print(channels)
 '''for x,y in channels.items():
     print(x,y)
@@ -70,16 +69,16 @@ for j,k in channels.items():
 '''
 n=random.randint(0,len(channel_name)-1)
 #print(n)
-deviceno=get_token('4200000081'+'yzw123')
-#print(deviceno)
-Deviceno1=deviceno.upper()
-#print(Deviceno1)
-#产生设备号
-dec=firstdevc(Deviceno=Deviceno1)#得到accessToken
-(a_c,verifycodes)=access_token(devc1=dec)#得到access_token
-print(a_c,verifycodes)
-
+def deviceno(num):
+    deviceno=get_token(num+'yzw123')
+    Deviceno1=deviceno.upper()
+    return Deviceno1
 for x,y in channels.items():
+    Deviceno2 = deviceno(y)
+    #print(Deviceno2)
+    dec = firstdevc(Deviceno=Deviceno2)  # 得到accessToken
+    (a_c, verifycodes) = access_token(devc1=dec,devicenob=Deviceno2)  # 得到access_token
+    #print(a_c, verifycodes)
     url3='http://slave.bfgd.com.cn:13160/media/channel/get_info?accesstoken='+a_c+'&chnlid='+channel_ids[0]+'&verifycode='+verifycodes
     r=geturl(url3,headers=headers1)
     #print(r)

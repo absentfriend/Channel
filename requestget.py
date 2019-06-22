@@ -9,7 +9,7 @@ def geturl(url,headers):
     #print(r)
     return r
 
-def posturl(url,data,headers):
+def posturl(url,data,headers=headers):
     r=requests.post(url,json=data,headers=headers)
     r.encoding='utf-8'
     #r.encoding='GB2312'

@@ -56,6 +56,7 @@ for a,b in ch.items():
     #print(a,r)
     key=re.findall(r'live":"(.+?)_',r)
     if key==[]:
+        #print(a,r)
         continue
     else:
         key=key[0]
@@ -63,14 +64,15 @@ for a,b in ch.items():
         playurls.append(playurl)
         rds.append(a)
         print(a,playurl)
+        #print('\n'+r+"\n")
 with open('斗鱼.dpl', 'w', encoding="utf-8") as f: f.write('')
 with open('斗鱼.dpl', 'a', encoding="utf-8") as f: f.write('DAUMPLAYLIST\n'+'playname=\n'+'topindex=27\n'+'saveplaypos=0\n')
 for u in playurls:
     j=playurls.index(u)
     (x,y)=lists(rds[j],u)
     with open('斗鱼.dpl', 'a+', encoding="utf-8") as f: f.write(str(j+1)+x + "\n"+str(j+1)+y+"\n"+str(j+1)+'*played*0\n')
-#os.system('C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Daum\\PotPlayer 64 bit.exe')
-#os.system('C:\\Users\\Administrator\\PycharmProjects\\Channel\\斗鱼直播\\斗鱼.dpl')
+os.system('C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Daum\\PotPlayer 64 bit.exe')
+os.system('C:\\Users\\Administrator\\PycharmProjects\\Channel\\斗鱼直播\\斗鱼.dpl')
 '''
 params ={'tt':'1561109493','did':'58c9702b21a690730fc9434b00011531','rid':'9999','v':'250120190622','sign':'5af1dc8ea555cd6301f17d7fd2099b7e','ver':'219032101','rate':'-1'}
 r=requests.post(url,files=params,headers=h)

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../JS/.idea/JS.iml" filepath="$PROJECT_DIR$/../JS/.idea/JS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LXFpy/.idea/LXFpy.iml" filepath="$PROJECT_DIR$/../LXFpy/.idea/LXFpy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/频道破解.iml" filepath="$PROJECT_DIR$/.idea/频道破解.iml" />
     </modules>
   </component>

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbad41a-df71-4b9b-ae40-4c85e49b2b3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YZW/Personal/MySQL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YZW/Personal/linux下安装python3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/直播平台/斗鱼直播/dytv.py" beforeDir="false" afterPath="$PROJECT_DIR$/直播平台/斗鱼直播/dytv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/频道破解.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/频道破解.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/直播平台/斗鱼直播/斗鱼.dpl" beforeDir="false" afterPath="$PROJECT_DIR$/直播平台/斗鱼直播/斗鱼.dpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YZW/Personal/VPN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../YZW/Personal/VPN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../YZW/Personal/常用网址.py" beforeDir="false" afterPath="$PROJECT_DIR$/../YZW/Personal/常用网址.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,17 +19,90 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/直播平台/斗鱼直播/dytv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1495">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="621">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#4429#4839#1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YZW/Personal/常用网址.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YZW/Personal/VPN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../YZW/Personal/linux下安装python3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YZW/Personal/MySQL.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../LXFpy/数据库访问/使用mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../LXFpy/数据库访问/pra1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -52,7 +132,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../YZW" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,14 +149,27 @@
         <option value="$PROJECT_DIR$/辽宁/北方云APP/bfgd.py" />
         <option value="$PROJECT_DIR$/斗鱼直播/斗鱼tv.txt" />
         <option value="$PROJECT_DIR$/直播平台/斗鱼直播/dytv.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/GUI图形界面.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/海归绘图.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/网络编程/TCP编程.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/网络编程/echo_server.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/网络编程/echo_client.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/网络编程/UDP编程/udp_server.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/网络编程/UDP编程/udp_client.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/数据库访问/pra1.py" />
+        <option value="$PROJECT_DIR$/../YZW/Personal/常用网址.py" />
+        <option value="$PROJECT_DIR$/../YZW/Personal/VPN.py" />
+        <option value="$PROJECT_DIR$/../YZW/Personal/MySQL.py" />
+        <option value="$PROJECT_DIR$/../LXFpy/数据库访问/使用mysql.py" />
+        <option value="$PROJECT_DIR$/../YZW/Personal/linux下安装python3.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
-    <option name="y" value="123" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="219" />
+    <option name="y" value="143" />
     <option name="width" value="1400" />
-    <option name="height" value="869" />
+    <option name="height" value="856" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -84,33 +177,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="频道破解" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Channel" type="462c0819:PsiDirectoryNode" />
+              <item name="LXFpy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="频道破解" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Channel" type="462c0819:PsiDirectoryNode" />
-              <item name="直播平台" type="462c0819:PsiDirectoryNode" />
+              <item name="LXFpy" type="462c0819:PsiDirectoryNode" />
+              <item name="数据库访问" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LXFpy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../YZW" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\LXFpy\图形界面" />
+      <recent name="C:\Users\Administrator\PycharmProjects\LXFpy\网络编程\TCP编程" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,29 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dytv">
-    <configuration name="游戏放映室" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="频道破解" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/战旗直播" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/战旗直播/游戏放映室.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.pra1">
     <configuration name="重庆电视" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="频道破解" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,20 +312,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bfgd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="频道破解" />
+    <configuration name="echo_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LXFpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/辽宁/北方云APP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LXFpy/网络编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/辽宁/北方云APP/bfgd.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\LXFpy\网络编程\TCP编程\echo_client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,20 +334,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dytv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="频道破解" />
+    <configuration name="echo_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LXFpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/直播平台/斗鱼直播" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LXFpy/网络编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/直播平台/斗鱼直播/dytv.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\LXFpy\网络编程\TCP编程\echo_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,20 +356,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="huyaTV" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="频道破解" />
+    <configuration name="pra1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LXFpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/虎牙TV" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LXFpy/数据库访问" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/虎牙TV/huyaTV.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../LXFpy/数据库访问/pra1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,20 +378,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="斗鱼tv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="频道破解" />
+    <configuration name="udp_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LXFpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/斗鱼直播" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LXFpy/网络编程/UDP编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/斗鱼直播/斗鱼tv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../LXFpy/网络编程/UDP编程/udp_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="udp_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LXFpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../LXFpy/网络编程/UDP编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../LXFpy/网络编程/UDP编程/udp_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,11 +424,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dytv" />
-        <item itemvalue="Python.斗鱼tv" />
-        <item itemvalue="Python.bfgd" />
-        <item itemvalue="Python.huyaTV" />
-        <item itemvalue="Python.游戏放映室" />
+        <item itemvalue="Python.pra1" />
+        <item itemvalue="Python.udp_client" />
+        <item itemvalue="Python.udp_server" />
+        <item itemvalue="Python.echo_client" />
+        <item itemvalue="Python.echo_server" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +471,8 @@
       <workItem from="1560907243502" duration="440000" />
       <workItem from="1561341291195" duration="8864000" />
       <workItem from="1561353888326" duration="1791000" />
-      <workItem from="1561356078282" duration="1003000" />
+      <workItem from="1561356078282" duration="9573000" />
+      <workItem from="1561425165872" duration="6120000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1559808605156</created>
@@ -402,38 +502,54 @@
       <option name="project" value="LOCAL" />
       <updated>1561341332119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ok">
+      <created>1561357363127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561357363127</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69553000" />
+    <option name="totallyTimeSpent" value="84243000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="219" y="143" width="1400" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108742006" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15373135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32212582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49840087" visible="true" weight="0.20498616" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290993" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.19848156" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.32212582" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.30911064" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3290993" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286334" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="13" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,25 +562,20 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$tv.coverage" NAME="斗鱼tv Coverage Results" MODIFIED="1560851416868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/斗鱼直播" />
     <SUITE FILE_PATH="coverage/$ahtv2.coverage" NAME="ahtv2 Coverage Results" MODIFIED="1560332250612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/安徽电视台" />
-    <SUITE FILE_PATH="coverage/$hunanTV.coverage" NAME="hunanTV Coverage Results" MODIFIED="1560332754673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/湖南电视台" />
-    <SUITE FILE_PATH="coverage/$bfgd.coverage" NAME="bfgd Coverage Results" MODIFIED="1560827189848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/辽宁/北方云APP" />
-    <SUITE FILE_PATH="coverage/$dytv.coverage" NAME="dytv Coverage Results" MODIFIED="1561355819791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/直播平台/斗鱼直播" />
+    <SUITE FILE_PATH="coverage/$GUI.coverage" NAME="GUI图形界面 Coverage Results" MODIFIED="1561358949586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LXFpy" />
+    <SUITE FILE_PATH="coverage/$echo_client.coverage" NAME="echo_client Coverage Results" MODIFIED="1561361519173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LXFpy/网络编程" />
+    <SUITE FILE_PATH="coverage/$pra1.coverage" NAME="pra1 Coverage Results" MODIFIED="1561431858860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LXFpy/数据库访问" />
     <SUITE FILE_PATH="coverage/$huyaTV.coverage" NAME="huyaTV Coverage Results" MODIFIED="1560480092248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/虎牙TV" />
-    <SUITE FILE_PATH="coverage/$.coverage" NAME="重庆电视 Coverage Results" MODIFIED="1560753621941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/重庆电视" />
+    <SUITE FILE_PATH="coverage/$hunanTV.coverage" NAME="hunanTV Coverage Results" MODIFIED="1560332754673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/湖南电视台" />
+    <SUITE FILE_PATH="coverage/$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1561368996321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LXFpy/网络编程/UDP编程" />
+    <SUITE FILE_PATH="coverage/$bfgd.coverage" NAME="bfgd Coverage Results" MODIFIED="1560827189848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/辽宁/北方云APP" />
+    <SUITE FILE_PATH="coverage/$dytv.coverage" NAME="dytv Coverage Results" MODIFIED="1561357903130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/直播平台/斗鱼直播" />
+    <SUITE FILE_PATH="coverage/$TCP.coverage" NAME="TCP编程 Coverage Results" MODIFIED="1561360744061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LXFpy/网络编程" />
+    <SUITE FILE_PATH="coverage/$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1561362120353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LXFpy/网络编程/UDP编程" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="海归绘图 Coverage Results" MODIFIED="1561360640936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LXFpy" />
+    <SUITE FILE_PATH="coverage/$echo_server.coverage" NAME="echo_server Coverage Results" MODIFIED="1561361512377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../LXFpy/网络编程" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hljtvGFY.py" />
-    <entry file="file://$PROJECT_DIR$/../56pao/guochan.py" />
-    <entry file="file://$PROJECT_DIR$/宁夏有线.py" />
-    <entry file="file://$PROJECT_DIR$/tty.txt" />
-    <entry file="file://$PROJECT_DIR$/宁夏有线.dpl" />
-    <entry file="file://$PROJECT_DIR$/河南全套.dpl" />
-    <entry file="file://$PROJECT_DIR$/江苏移动/江苏移动418.dpl" />
-    <entry file="file://$PROJECT_DIR$/四川电信/四川电信417.dpl" />
-    <entry file="file://$PROJECT_DIR$/辽宁电信.dpl" />
-    <entry file="file://$PROJECT_DIR$/辽宁/北斗TV.dpl" />
-    <entry file="file://$PROJECT_DIR$/辽宁/北方云.dpl" />
-    <entry file="file://$PROJECT_DIR$/华数高清源.dpl" />
     <entry file="file://$PROJECT_DIR$/辽宁/北方云.py" />
     <entry file="file://$PROJECT_DIR$/广东电信dpl.py" />
     <entry file="file://$PROJECT_DIR$/广东电信IPTV.html" />
@@ -525,14 +636,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/网络编程/sina.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/网络编程/UDP编程/udp_client.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/网络编程/UDP编程/udp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/网络编程/TCP编程/echo_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/网络编程/TCP编程/echo_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/网络编程/TCP编程/TCP编程.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/图形界面/海归绘图.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding>
+            <element signature="e#22#272#1" />
+            <element signature="e#273#476#1" />
+            <element signature="e#497#1198#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/图形界面/GUI图形界面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/数据库访问/pra1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YZW/Personal/VPN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YZW/Personal/常用网址.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/直播平台/斗鱼直播/dytv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="621">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#4429#4839#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LXFpy/数据库访问/使用mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YZW/Personal/MySQL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YZW/Personal/linux下安装python3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>
